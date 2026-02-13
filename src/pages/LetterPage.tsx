@@ -1,6 +1,7 @@
 import FloatingBlobs from "@/components/FloatingBlobs";
 import AnimatedSection from "@/components/AnimatedSection";
 import VintagePaper from "@/components/VintagePaper";
+import MusicToggle from "@/components/MusicToggle";
 import { Link } from "react-router-dom";
 
 import letterData from "@/content/letter.json";
@@ -9,6 +10,7 @@ const LetterPage = () => {
   return (
     <div className="relative min-h-screen ambient-bg overflow-hidden">
       <FloatingBlobs />
+      <MusicToggle />
 
       <div className="relative z-10 flex items-center justify-center min-h-screen px-4 py-20">
         <AnimatedSection>

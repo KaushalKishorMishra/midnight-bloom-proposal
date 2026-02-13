@@ -1,6 +1,7 @@
 import FloatingBlobs from "@/components/FloatingBlobs";
 import AnimatedSection from "@/components/AnimatedSection";
 import GlassCard from "@/components/GlassCard";
+import MusicToggle from "@/components/MusicToggle";
 import { Link } from "react-router-dom";
 
 import secretData from "@/content/secret.json";
@@ -9,6 +10,7 @@ const SecretPage = () => {
   return (
     <div className="relative min-h-screen ambient-bg overflow-hidden">
       <FloatingBlobs />
+      <MusicToggle />
 
       <div className="relative z-10 max-w-2xl mx-auto px-6 py-20">
         <AnimatedSection className="text-center mb-16">
