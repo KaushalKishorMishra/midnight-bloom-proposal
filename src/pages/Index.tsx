@@ -5,6 +5,7 @@ import GlassCard from "@/components/GlassCard";
 import GradientButton from "@/components/GradientButton";
 import AnimatedSection from "@/components/AnimatedSection";
 import useConfetti from "@/components/Confetti";
+import MusicToggle from "@/components/MusicToggle";
 import { Link } from "react-router-dom";
 
 import heroData from "@/content/hero.json";
@@ -39,6 +40,7 @@ const Index = () => {
   return (
     <div className="relative min-h-screen ambient-bg overflow-hidden">
       <FloatingBlobs />
+      <MusicToggle />
 
       {/* Hero Section */}
       <section className="relative z-10 min-h-screen flex flex-col items-center justify-center px-6 text-center">
