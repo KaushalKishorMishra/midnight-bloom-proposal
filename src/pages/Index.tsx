@@ -7,6 +7,7 @@ import AnimatedSection from "@/components/AnimatedSection";
 import useConfetti from "@/components/Confetti";
 import MusicToggle from "@/components/MusicToggle";
 import { Link } from "react-router-dom";
+import PhotoGallery from "@/components/PhotoGallery";
 
 import heroData from "@/content/hero.json";
 import proposalData from "@/content/proposal.json";
@@ -216,6 +217,9 @@ const Index = () => {
           ))}
         </div>
       </section>
+
+      {/* Photo Gallery */}
+      <PhotoGallery />
 
       {/* Footer */}
       <footer className="relative z-10 text-center py-16 px-6">
